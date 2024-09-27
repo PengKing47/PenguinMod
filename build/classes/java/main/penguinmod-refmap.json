@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/penguinmod/mixin/BoatMixin": {
+      "tick": "Lnet/minecraft/class_1690;method_5773()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/penguinmod/mixin/BoatMixin": {
+        "tick": "Lnet/minecraft/class_1690;method_5773()V"
+      }
+    }
+  }
+}

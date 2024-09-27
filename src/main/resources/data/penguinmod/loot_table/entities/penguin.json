@@ -1,0 +1,38 @@
+{   
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod",
+            "functions": [
+              {
+                "function": "minecraft:furnace_smelt",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "penguinmod:penguin",
+                      "flags": {
+                        "is_on_fire": true
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 2
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}  

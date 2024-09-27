@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "penguinmod",
+	"version": "1.0.4",
+	"name": "Penguin Mod",
+	"description": "Adds penguins to minecraft!",
+	"authors": [
+		"PengKing"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/penguinmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.penguinmod.PenguinMod"
+		],
+		"client": [
+			"com.penguinmod.PenguinModClient"
+		],
+		"fabric-datagen": [
+			"com.penguinmod.PenguinmodDataGenerator"
+		]
+	},
+	"mixins": [
+		"penguinmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

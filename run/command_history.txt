@@ -1,0 +1,50 @@
+/locate biome minecraft:stony_shore
+/tp @s 1354 110 1710
+/tp Player165 10000 100 11000
+/locate biome minecraft:stony_shore
+/tp @s 9872 100 11192
+/summon penguinmod:penguin
+/locate biome minecraft:plains
+/tp @s -444 75 521
+/summon penguinmod:penguin
+/locate biome minecraft:plains
+/tp @s 525 70 658
+/locate biome minecraft:plains
+/tp @s -193 130 774
+/summon penguinmod:penguin
+/locate biome minecraft:plains
+/tp @s 290 68 -262
+/locate biome minecraft:plains
+/tp @s -70 86 -87
+/locate biome minecraft:plains
+/tp @s -330 54 -226
+/locate biome minecraft:plains
+/tp @s -47 87 -4
+/give Player589 penguinmod:penguin_egg
+/summon penguinmod:penguin
+/gamerule randomTickSpeed 1000
+/give Player413 penguinmod:penguin_egg
+/give Player742 penguinmod:penguin_egg
+/gamerule randomTickSpeed
+/gamerule randomTickSpeed 10000
+/gamerule randomTickSpeed
+/gamerule randomTickSpeed 3
+/time set day
+/summon penguinmod:penguin
+/gamerule randomTickSpeed 1000
+/gamerule randomTickSpeed 3
+/gamemode survival
+/gamemode creative
+/locate biome minecraft:snowy_plains
+/tp @s 717 76 579
+/locate biome minecraft:snowy_plains
+/tp @s 791 72 473
+/gamerule randomTickSpeed 1000
+/gamerule randomTickSpeed 3
+/give Player783 penguinmod:penguin_spawn_egg
+/time set day
+/gamerule randomTickSpeed 1000
+/gamerule randomTickSpeed 3
+/locate biome minecraft:beach
+/tp @s 621 75 385
+/time set day
