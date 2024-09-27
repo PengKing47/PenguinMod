@@ -26,5 +26,6 @@ public class PenguinMod implements ModInitializer {
 		ModItems.registerItems();
 
 		LOGGER.info("Hello Fabric world!");
+		
 	}
 }

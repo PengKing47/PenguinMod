@@ -19,8 +19,7 @@ public class PenguinModClient implements ClientModInitializer {
         
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PENGUIN, PenguinModel::getTexturedModelData);
         EntityRendererRegistry.register(ModEntities.PENGUIN, PenguinRenderer::new);
-        
-        
+
     }
     
 }

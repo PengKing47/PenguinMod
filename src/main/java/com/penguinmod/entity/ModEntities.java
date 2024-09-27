@@ -20,4 +20,5 @@ public class ModEntities {
     public static void registerEntities(){
         FabricDefaultAttributeRegistry.register(ModEntities.PENGUIN, PenguinEntity.createPenguinAttributes());
     }
+    
 }
