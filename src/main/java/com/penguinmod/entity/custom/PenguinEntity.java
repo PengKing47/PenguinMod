@@ -239,6 +239,7 @@ public class PenguinEntity extends AnimalEntity {
 	protected int getXpToDrop() {
 		return (int)(Math.random()*3+1);
 	}
+	
 }
 
 
