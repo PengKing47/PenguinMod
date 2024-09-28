@@ -4,9 +4,9 @@ import org.jetbrains.annotations.Nullable;
 
 import com.penguinmod.effect.ModEffects;
 import com.penguinmod.entity.ModEntities;
-import com.penguinmod.entity.goals.GoHomeGoal;
-import com.penguinmod.entity.goals.LayEggGoal;
-import com.penguinmod.entity.goals.PenguinMateGoal;
+import com.penguinmod.entity.goal.GoHomeGoal;
+import com.penguinmod.entity.goal.LayEggGoal;
+import com.penguinmod.entity.goal.PenguinMateGoal;
 import com.penguinmod.sound.ModSounds;
 
 import net.minecraft.entity.AnimationState;
