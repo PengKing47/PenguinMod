@@ -47,5 +47,4 @@ public class PenguinMateGoal extends AnimalMateGoal{
 			this.world.spawnEntity(new ExperienceOrbEntity(this.world, this.animal.getX(), this.animal.getY(), this.animal.getZ(), random.nextInt(7) + 1));
 		}
 	}
-    
 }

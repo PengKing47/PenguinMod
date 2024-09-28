@@ -72,6 +72,7 @@ public class GoHomeGoal extends Goal {
             }
 
             this.penguin.getNavigation().startMovingTo(vec3d2.x, vec3d2.y, vec3d2.z, this.speed);
+            
         }
     }
 }

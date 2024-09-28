@@ -39,4 +39,5 @@ public class WanderInWaterGoal extends MoveToTargetPosGoal {
     protected boolean isTargetPos(WorldView world, BlockPos pos) {
         return world.getBlockState(pos).isOf(Blocks.WATER);
     }
+    
 }
